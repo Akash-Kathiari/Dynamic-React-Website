@@ -3,6 +3,9 @@ import axios from "axios";
 import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import {selectedProduct,removeSelectedProduct} from "../redux/actions/productActions";
+
+
+
 const ProductDetails = () => {
     const { productId } = useParams();
     let product = useSelector((state) => state.product);
