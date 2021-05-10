@@ -135,6 +135,7 @@
   background-color: #555555;
   color: white;
 }
+
 #hideMe {
   margin: 20px 0 0 10%;
   -moz-animation: cssAnimation 0s ease-in 60s forwards;
